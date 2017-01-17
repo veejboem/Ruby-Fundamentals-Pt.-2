@@ -17,3 +17,8 @@ end
 food_items(grocery_list)
 
 puts "There are #{grocery_list.length} items on your list."
+
+if grocery_list.include?("bananas")
+  puts "You don't need to pick up bananas today."
+elsif puts "You need to pick up bananas!"
+end
