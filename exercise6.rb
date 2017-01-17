@@ -22,3 +22,8 @@ if grocery_list.include?("bananas")
   puts "You don't need to pick up bananas today."
 elsif puts "You need to pick up bananas!"
 end
+
+p grocery_list[1]
+
+grocery_list = grocery_list.sort
+food_items(grocery_list)
